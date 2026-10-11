@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адаптивная капоэйра</title>
+    <link rel="stylesheet" href="style1.css"/>
+</head>
+<body>
+<!-- БЛОК 1: ОПИСАНИЕ (Фон: основной --color-bg) -->
+<section class="srv-description">
+    <div class="container">
+        <!-- Заголовок с возрастной плашкой -->
+        <div class="srv-title-wrapper">
+            <h1 class="section-title srv-title">Адаптивная капоэйра</h1>
+            <span class="srv-age-badge">7+</span>
+        </div>
+
+        <!-- Текст + Фото -->
+        <div class="srv-desc-wrapper">
+            <div class="srv-desc-text">
+                <p>Адаптивная капоэйра — это динамичные занятия для детей с особенностями развития, где спорт, музыка и игра, помимо физического развития, помогают раскрывать потенциал.</p>
+                <p>В отличие от контактных единоборств, в капоэйре нет столкновений и агрессии: вместо этого дети учатся чувствовать пространство, управлять своим телом и взаимодействовать друг с другом. Они осваивают стойки, акробатику и движения, повторяющие повадки животных, — так тренируется координация, воображение и владение телом.</p>
+                <p>Особое внимание уделяем коммуникации: в парах ребята учатся чувствовать партнёра, договариваться и действовать слаженно. Тренировки проходят в дружелюбной атмосфере, где каждый ребёнок чувствует себя уверенно и с радостью пробует новое.</p>
+            </div>
+            <div class="srv-desc-image">
+                <img src="fotos/18.jpg" alt="Адаптивная капоэйра">
+            </div>
+        </div>
+
+        <!-- Блок "Что даёт" -->
+        <div class="srv-benefits">
+            <h2 class="srv-benefits-title">Что даёт это направление</h2>
+            <ul class="srv-benefits-list">
+                <li><strong>Координация:</strong> освоение стоек, акробатики и движений, имитирующих повадки животных.</li>
+                <li><strong>Межполушарные связи:</strong> выполнение элементов в обе стороны тела.</li>
+                <li><strong>Музыкальность:</strong> работа под ритм музыкальных инструментов и совместное пение.</li>
+                <li><strong>Коммуникация:</strong> в парах ребята учатся чувствовать партнёра и договариваться.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- БЛОК 2: РАСПИСАНИЕ (Фон: альтернативный --color-bg-alt, но очень светлый) -->
+<section class="srv-schedule">
+    <div class="container">
+        <h2 class="section-title srv-title">Расписание занятий</h2>
+        <div class="srv-table-wrapper">
+            <table class="srv-table">
+                <thead>
+                    <tr>
+                        <th>День</th>
+                        <th>Время</th>
+                        <th>Формат</th>
+                        <th>Возраст</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="День">Понедельник</td>
+                        <td data-label="Время">16:00 – 16:45</td>
+                        <td data-label="Формат">Групповое (начинающие)</td>
+                        <td data-label="Возраст">7–10 лет</td>
+                    </tr>
+                    <tr>
+                        <td data-label="День">Среда</td>
+                        <td data-label="Время">17:00 – 17:45</td>
+                        <td data-label="Формат">Групповое (продолжающие)</td>
+                        <td data-label="Возраст">10+ лет</td>
+                    </tr>
+                    <tr>
+                        <td data-label="День">Пятница</td>
+                        <td data-label="Время">По записи</td>
+                        <td data-label="Формат">Индивидуальное</td>
+                        <td data-label="Возраст">7+ лет</td>
+                    </tr>
+                    <tr>
+                        <td data-label="День">Суббота</td>
+                        <td data-label="Время">11:00 – 11:45</td>
+                        <td data-label="Формат">Групповое (смешанная)</td>
+                        <td data-label="Возраст">7–12 лет</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- БЛОК 3: СТОИМОСТЬ (Фон: основной --color-bg) -->
+<section class="srv-pricing">
+    <div class="container">
+        <h2 class="section-title srv-title">Стоимость</h2>
+        <div class="srv-table-wrapper">
+            <table class="srv-table">
+                <thead>
+                    <tr>
+                        <th>Формат</th>
+                        <th>Группа</th>
+                        <th>Длительность</th>
+                        <th>Стоимость</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Разделитель: Индивидуальные -->
+                    <tr class="srv-table-divider">
+                        <td colspan="4">Индивидуальные занятия</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Формат">Индивидуальное</td>
+                        <td data-label="Группа">1 человек</td>
+                        <td data-label="Длительность">45 минут</td>
+                        <td data-label="Стоимость" class="srv-price-cell">1 700 ₽</td>
+                    </tr>
+
+                    <!-- Разделитель: Групповые -->
+                    <tr class="srv-table-divider">
+                        <td colspan="4">Групповые занятия</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Формат">Групповое</td>
+                        <td data-label="Группа">Начинающие</td>
+                        <td data-label="Длительность">45 минут</td>
+                        <td data-label="Стоимость" class="srv-price-cell">850 ₽ / чел</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Формат">Групповое</td>
+                        <td data-label="Группа">Продолжающие</td>
+                        <td data-label="Длительность">45 минут</td>
+                        <td data-label="Стоимость" class="srv-price-cell">750 ₽ / чел</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+</body>
+</html>
